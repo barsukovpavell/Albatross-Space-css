@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  /* max-width: 800px; */
+  /* overflow: hidden; */
+}
+
+/* обложка */
+
+.cover {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  background-image: url(fog.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 0;
+}
+
+#albatross {
+  width: 400px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* таблица с меню */
+
+.container-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-image: linear-gradient(
+    to left,
+    #071224,
+    #1b127d,
+    #805ce2,
+    #f4be66
+  );
+  background-size: cover;
+  padding: 10px;
+
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.tab {
+  position: relative;
+  padding: 10px;
+
+  color: rgb(252, 239, 222);
+
+  cursor: pointer;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  /* left: 0; */
+  top: 0;
+
+  background-color: #183159d0;
+  color: bisque;
+
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 45px;
+
+  z-index: 1;
+}
+
+.tab:hover .submenu {
+  display: block;
+}
+
+.menu:hover {
+  background-color: #112340;
+  border-radius: 5px;
+  transition: all 0.3s, color 1s;
+}
+
+.menu a,
+p {
+  color: azure;
+  text-decoration: none;
+}
+
+.submenu:hover {
+}
+
+/* центр */
+
+.main-container {
+  background-image: url(milk.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 0;
+}
+
+.main-container h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+/* Левая колонка */
+
+/* кнопки */
+
+.button {
+  background-color: pink;
+  transition: background-color 0.6s, transform 0.5s;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: white;
+  transform: scale(110%);
+}
+
+.buttone {
+  background-color: blue;
+  border-radius: 15px;
+}
+
+.buttone:hover {
+  background-color: white;
+}
+
+.buttone {
+  background-color: blue;
+  transition: background-color 0.6s;
+}
+
+.buttone:hover {
+  background-color: white;
+}
+
+/* кнопки */
